@@ -49,7 +49,11 @@ bool tttb_winner_horizontal_test() {
 // If any fail, they print their own failure messages.
 int main() {
     bool result = true;
+
     result &= tttb_winner_horizontal_test();
+
+    result &= tttb_winner_vertical_test();
+
     if (result) {
         cout << "All tests passed." << endl;
         return(0);
