@@ -32,7 +32,7 @@ bool tttb_winner_vertical_test() {
 
 
 
-// new test for test for horizontal test
+
 
 bool tttb_winner_horizontal_test() {
     TictactoeBoard b;
