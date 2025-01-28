@@ -26,6 +26,7 @@ bool tttb_winner_vertical_test() {
 }
 
 
+// This is the function for the diagonal test
 bool tttb_winner_diagonal_test() {
     TictactoeBoard b;
     b.set(0, 0, TictactoeXO::X);
@@ -41,6 +42,7 @@ bool tttb_winner_diagonal_test() {
     }
     return true;
 }
+
 
 
 
